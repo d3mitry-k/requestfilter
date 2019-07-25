@@ -13,6 +13,7 @@
 - Дополнительно: нужно создать unit test
 
 Пример Enum, который можно передать в такой класс:
+```
  public  enum Gender {
      MALE, FEMALE;
 
@@ -21,7 +22,10 @@
          return name().toLowerCase();
      }
  }
+```
 
 При этом Map должен иметь значения:
+```
 [Gender.MALE] = "male"
 [Gender.FEMALE] = "female
+```
